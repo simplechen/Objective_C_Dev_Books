@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0066)http://tiny4cocoa.com/doc/xcode-doc/ios-development-tools-overview -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>iOS开发工具 - Tiny4Cocoa文档库</title>
+	<link rel="stylesheet" type="text/css" href="./iOS开发工具 - Tiny4Cocoa文档库_files/detail.css" media="all">
+	<meta name="title" content="iOS开发工具">
+	<meta name="description" content="iOS开发工具">
+	<meta name="keywords" content="iOS开发工具">
+	<script type="text/javascript" async="" src="./iOS开发工具 - Tiny4Cocoa文档库_files/ga.js"></script><script type="text/javascript">
+	window.google_analytics_uacct = "UA-53077-22";
+	</script>
+	
+	
+<meta name="chromesniffer" id="chromesniffer_meta" content="Google%20Analytics=1&amp;"><script type="text/javascript" src="chrome-extension://homgcnaoacgigpkkljjjekpignblkeae/detector.js"></script></head>
+<body class="zmap_point">
+<div id="container">
+	<div id="header">
+		<div style="float:right;">
+			<a href="http://tiny4cocoa.com/">论坛</a>|<a href="http://tiny4cocoa.com/doc">文档库</a>|<a href="http://tiny4cocoa.com/2011">Cocoa移动开发者大会 </a>
+		</div>
+		<div id="logo">
+			<a href="http://tiny4cocoa.com/doc">Tiny4Cocoa文档库</a>
+		</div><!-- #logo -->
+		<div id="loginbox">
+			
+		</div><!-- #loginbox -->
+	</div><!-- #header -->
+  	<div id="sidebar1">
+    	<h3>主菜单</h3>
+<div style="font-size:13px;">
+    	入门
+<ul>
+			<li><a href="http://tiny4cocoa.com/doc/xcode-doc/ios-overview">iOS概述</a></li>
+			<li><a href="http://tiny4cocoa.com/doc/xcode-doc/learn-objective-c">Objective-C入门</a></li>
+			<li><a href="./iOS开发工具 - Tiny4Cocoa文档库_files/iOS开发工具 - Tiny4Cocoa文档库.htm">iOS开发工具</a></li>
+			<li><a href="http://tiny4cocoa.com/doc/xcode-doc/create-iphone-application">创建一个iPhone应用程序</a></li>
+			</ul>
+			概述
+			<ul>
+			<li><a href="http://tiny4cocoa.com/doc/xcode-doc/ios-technology-overview">iOS技术概述</a></li>
+			</ul>
+</div>
+			<ul>
+			
+		</ul>
+			
+			
+  	</div><!-- #sidebar1 -->
+  	<div id="mainContent">
+	<!-- google_ad_section_start -->
+   	<h1>
+		<a href="./iOS开发工具 - Tiny4Cocoa文档库_files/iOS开发工具 - Tiny4Cocoa文档库.htm">iOS开发工具</a>
+   	</h1>
+   	<hr>
+	
+  	<div id="mainTopAd">
+	</div>
+   	<!-- #mainTopAd -->
+   	<!--
+ 	<div id="mainRectAd">
+		
+	</div>
+	-->
+	<!-- #mainRectAd -->
+   	<p><span style="font-size: small;">要开发iOS的应用程序，你需要一台安装有Xcode工具和Mac OS X的电脑。Xcode是Apple提供的开发工具集，提供项目管理，代码编辑，创建执行程序，代码级调试，代码库管理，性能调节等等功能。这个工具集的核心就是Xcode程序，提供了基本的源代码开发环境。但是Xcode不是你使用的唯一个工具，下面的章节向你介绍创建iPhone应用程序需要的工具。</span></p>
+<h2>Xcode</h2>
+<p>你开发经验的焦点是Xcode程序。Xcode是一个集成开发环境（IDE），提供所有的工具，令你可以创建和管理你的iPhone项目和源代码，构建你的代码成为可执行文件，在iPhone模拟器或者真实设备上运行和调试你的代码。</p>
+<p>创建一个新的iPhone应用程序，从在Xcode创建一个新的项目开始。一个项目，管理与你的程序所有相关的信息，包括源代码，构建设置，以及需要放在一起的规则。每个Xcode项目的核心就是项目窗口，如图一所示。这个窗口提供了快速访问你的程序所有关键元素的途径。文件和文件组列表是你管理项目中文件的地方，包括你的源代码文件，以及从这些源代码文件创建的构建目标。工具栏提供访问常用工具和命令的途径，细节面板提供一个对你项目的工作可配置的空间。项目窗口的其他部分提供了项目的其他信息。</p>
+<p align="center"><img src="./iOS开发工具 - Tiny4Cocoa文档库_files/project_window.png" alt="" width="721" height="400"></p>
+<p align="center">图1 一个Xcode项目窗口</p>
+<p>Xcode包含一个先进的文本编辑器，支持许多特性，例如代码完成，语法高亮，代码折叠，以及行内的错误警告提示等等。Xcode的构建系统提供了默认的设置，另外还提供令你随心设置环境的能力。如果你需要文档，研究助手可以提供内容相关的文档，Xcode文档窗口让你可以浏览和查找信息。</p>
+<p>当你在Xcode中构建应用程序，你可以选择为iPhone模拟器创建，也可以选择为iPhone设备创建。模拟器提供了测试应用程序的本地环境，可以确保你的程序行为完全符合你的需求。当你对程序的基本行为已经满意后，你可以告诉Xcode构建它，然后在连接到你的计算机上的iPhone和iPod touch上运行它。在设备上面运行程序提供了终极测试环境，而且Xcode可以把内建调试器植入运行在设备上的代码中。</p>
+<p align="center"><img src="./iOS开发工具 - Tiny4Cocoa文档库_files/simulator.jpg" alt="" width="573" height="454"></p>
+<p align="center">&nbsp;</p>
+<p align="center">图2 从Xcode运行项目</p>
+<p>更多关于在iOS上构建项目的更多信息，参看iOS开发者指南中的开发环境章节。</p>
+<h2>界面构建器(Interface Builder)</h2>
+<p>界面构建器是用来可视化装配应用程序用户界面的工具。使用界面构建器，你可以用拖拽预置组件的方式装配你的程序窗口。组件包括标准的系统控件，例如选择器，文本框，按钮，还包括用来展现程序提供的视图的定制视图。当你把组件放置在窗口上，你可以通过拖拽来移动它们，利用查看器修改他们的属性，以及在这些对象和你的代码之间建立联系。当界面达到你的要求时，你可以保存这些内容为nib文件，这是一种定制的资源文件格式。在界面构建器中创建的nib文件，包括UIKit框架在运行期间在应用程序中重建相同对象所需要的全部信息。装入nib文件会创建保存在文件中的所有对象的运行期间版本，严格按照界面构建器中的配置。程序还使用你指定的连接信息在新创建的对象和程序中已存的对象间建立联系。这些连接为你的代码提供了nib文件对象的指针，以及提供了在代码中对象和用户动作通讯需要的信息。</p>
+<p>总的来说，界面构建器为你创建程序用户界面节约了大量的时间。界面构建器节省了创建，配置和定位构成用户界面的对象所需要的定制代码。因为它是一个可视化编辑器，你可以看到与运行期间完全相同的界面。</p>
+<h2>Instruments</h2>
+<p>为了确保你的软件有最好的用户体验，Instruments环境可以帮你分析你的iPhone应用程序在模拟器或者设备上面运行的性能表现。Instruments可以从运行的应用程序中获取数据，并可以把数据展现为叫做时间线的图形。你可以获取关于程序的内存用量，磁盘活动，网络活动以及图形性能等数据。时间线视图可以一个接一个的显示所有这些不同类型的信息，让你可以把程序的所有行为联系起来（分析），而不仅仅是（一次仅观察）某个领域内的行为。需要了解更多信息，你可以查看Instruments获取的细节例子。</p>
+<p align="center"><img src="./iOS开发工具 - Tiny4Cocoa文档库_files/Instruments.jpg" alt="" width="568" height="438"></p>
+<p align="center">图3 使用Instruments调节你的应用程序</p>
+<p>除了时间线视图，Instruments还提供了其他的工具帮助分析基于时间的程序的行为。例如，Instruments窗口可以让你保存多次运行的数据，这样你就可以发现程序的性能是得到了提升，还是需要继续努力。你可以保存这些运行的数据在Instruments文档内，并在任何时间打开他们。</p>
+<p>如何在iPhone程序上使用Instruments的更详尽的信息，请参考iOS编程指南的开发环境章节。为了获得如何使用Instruments的通用信息，请参考Instruments用户指南。</p>
+<p style="text-align: center;">&lt;&lt;&nbsp;<a href="http://tiny4cocoa.com/doc/xcode-doc/learn-objective-c">Objective-C入门</a>&nbsp;| <a href="http://tiny4cocoa.com/doc/xcode-doc">返回</a>&nbsp;|&nbsp;<a href="http://tiny4cocoa.com/doc/xcode-doc/create-iphone-application">创建一个iPhone应用程序</a>&gt;&gt;</p>
+   	<p>
+			</p>
+   	<div id="lastEditUserDiv">
+   	 	</div>
+	<!-- #lastEditUserDiv -->
+	<!-- google_ad_section_end -->
+	</div><!-- #mainContent -->
+	<br class="clearfloat">
+	<div id="footer">
+	<p>	
+	</p>	
+	</div><!-- #footer -->
+</div><!-- #container -->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-53077-22']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body></html>
